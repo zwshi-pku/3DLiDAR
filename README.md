@@ -38,6 +38,9 @@ view(60,25)
 
 Results
 --------------
+<div align=center>
+<img src="https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/re_f1_nonGroundPoints.png"  height="50%" width="50%">
+</div>
 
 ![results](https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/re_f1_nonGroundPoints.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dva2Fvd29rYW93b2thbzEyMzQ1,size_16,color_FFFFFF,t_70#pic_center=30x30)
 ![results](https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/re_f2_candidate%20powerline%20points.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dva2Fvd29rYW93b2thbzEyMzQ1,size_16,color_FFFFFF,t_70#pic_center)
