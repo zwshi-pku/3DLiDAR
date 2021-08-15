@@ -44,7 +44,7 @@ end
 toc
 figure
 pcshow(nonGroundPoints)
-title('nonGroundPoints')
+title('Non ground points')
 view(60,25)
 print(gcf,'-dpng','-r300', 'f1_nonGroundPoints.png')
 
@@ -53,13 +53,13 @@ radius = 0.5;
 angleThr = 10;
 LThr = 0.98;
 tic
-[isPLIndex] = extractPLs(nonGroundPoints,radius,angleThr,LThr);
+isPLIndex = extractPLs(nonGroundPoints,radius,angleThr,LThr);
 toc
 isPLIndex = logical(isPLIndex);
 
 figure
 pcshow(nonGroundPoints(isPLIndex,:))
-title('candidate powerline points')
+title('Candidate power line points')
 view(60,25)
 print(gcf,'-dpng','-r300', 'f2_candidate powerline points.png')
 
@@ -70,7 +70,7 @@ minDistance = 2.0;
 
 figure
 pcshow(ptCloud.Location,labels)
-title('candidate powerline points clusters')
+title('Candidate power line clusters')
 view(60,25)
 print(gcf,'-dpng','-r300', 'f3_candidate powerline points clusters.png')
 
@@ -87,7 +87,7 @@ end
 PLs = pointCloud(power_lines);
 figure
 pcshow(PLs);
-title('powerline points clusters')
+title('Power line clusters')
 view(60,25)
 print(gcf,'-dpng','-r300', 'f4_powerline points clusters.png')
 
@@ -97,7 +97,7 @@ minDistance = 0.3;
 [labels,numClusters] = pcsegdist(ptCloud,minDistance);
 figure
 show_segs(ptCloud.Location,labels,1);
-title('colorization clusters')
+title('Different clusters are given different colors')
 view(60,25)
 print(gcf,'-dpng','-r300', 'f5_colorization clusters.png')
 
@@ -131,7 +131,7 @@ end
 ptpl = pointCloud(powerLines_new,'Color',colors)
 figure
 pcshow(ptpl)
-title('powerLines clusters')
+title('Power line clusters')
 view(60,25)
 print(gcf,'-dpng','-r300', 'f6_powerLines clusters.png')
 
@@ -176,7 +176,7 @@ end
 ptplm = pointCloud(powerLines_new,'Color',colors)
 figure
 pcshow(ptplm.Location(1:1:end,:),ptplm.Color(1:1:end,:))
-title('Power line model')
+title('Power line modeling')
 view(60,25)
 print(gcf,'-dpng','-r300', 'f7_Power line model.png')
 
