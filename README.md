@@ -17,7 +17,7 @@ Compile in the matlab with:
 
 mex -I'.\Eigen\eigen3' extractPLs.cpp detectpowerline.cpp kdtree.cpp 3dKDtree.cpp eigenmatrix.cpp
 ```
-Examples
+Example
 --------------
 Run in Matlab: demo_extract_powerline.m
 key codes:
