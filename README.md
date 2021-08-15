@@ -20,7 +20,6 @@ mex -I'.\Eigen\eigen3' extractPLs.cpp detectpowerline.cpp kdtree.cpp 3dKDtree.cp
 Example
 --------------
 Run in Matlab: demo_extract_powerline.m
-key codes:
 ```cpp
 radius = 0.5;
 angleThr = 10;
