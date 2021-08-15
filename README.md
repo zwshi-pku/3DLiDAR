@@ -52,9 +52,9 @@ Our Publications
 
 Please consider citing our papers if you find these codes help your research.
 
-- **Zhenwei Shi**, Yi Lin, and Hui Li. **Extraction of urban power lines and potential hazard analysis from mobile laser scanning point clouds.** International Journal of Remote Sensing 41, no. 9 (2020): 3411-3428.
+**Zhenwei Shi**, Yi Lin, and Hui Li. **Extraction of urban power lines and potential hazard analysis from mobile laser scanning point clouds.** International Journal of Remote Sensing 41, no. 9 (2020): 3411-3428.
 
-- **Zhenwei Shi**, Zhizhong Kang, Yi Lin, Yu Liu, and Wei Chen. **Automatic recognition of pole-like objects from mobile laser scanning point clouds.** Remote Sensing 10, no. 12 (2018): 1891.
+**Zhenwei Shi**, Zhizhong Kang, Yi Lin, Yu Liu, and Wei Chen. **Automatic recognition of pole-like objects from mobile laser scanning point clouds.** Remote Sensing 10, no. 12 (2018): 1891.
 
 
 
