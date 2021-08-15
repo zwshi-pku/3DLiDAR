@@ -21,7 +21,7 @@ mex -I'.\Eigen\eigen3' extractPLs.cpp detectpowerline.cpp kdtree.cpp 3dKDtree.cp
 
 PointClouds
 --------------
-The sample data provided by the International Society for Photogrammetry and Remote Sensing Working Group (ISPRS WG) III/5. To download the point cloud data from three URLs:  
+The sample data provided by the International Society for Photogrammetry and Remote Sensing Working Group (ISPRS WG) III/5. To download the point cloud data from the following three links:  
 [https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/L037_Sens1_600x250_cloud_8.mat](https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/L037_Sens1_600x250_cloud_8.mat)  
 [https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/L037_Sens1_600x250_cloud_9.mat](https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/L037_Sens1_600x250_cloud_9.mat)  
 [https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/L037_Sens1_600x250_cloud_10.mat](https://github.com/zwshi-pku/3DLiDAR/blob/main/ExtractPowerLine/L037_Sens1_600x250_cloud_10.mat)
