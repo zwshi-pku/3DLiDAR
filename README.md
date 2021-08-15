@@ -11,9 +11,10 @@ Contents
 
 Compile
 --------------
-```c
-%Compile in the matlab with:
+Compile in the matlab with:
+```cpp
 %build from source
+
 mex -I'.\Eigen\eigen3' extractPLs.cpp detectpowerline.cpp kdtree.cpp 3dKDtree.cpp eigenmatrix.cpp
 ```
 Examples
