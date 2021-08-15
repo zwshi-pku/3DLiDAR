@@ -2,8 +2,6 @@
 The mobile laser scanning (MLS) system can quickly collect the point cloud data of power lines and power line corridors that lay along urban road. Accurate and efficient extraction of power lines from the point cloud is the basis of power line inspections and maintenance. This project presents a complete algorithm for power line extraction and modelling from MLS point clouds. The algorithm first extracted candidate power line points from non-ground points based on the analysis of linear feature. The catenary model is used to model and densify power lines. The sample data provided by the International Society for Photogrammetry and Remote Sensing Working Group (ISPRS WG) III/5 was used to test the performance of the method.
 
 ## Contents
-****
-
 -   [Compile](#Compile)
 -   [PointClouds](#PointClouds)
 -   [Examples](#Examples)
